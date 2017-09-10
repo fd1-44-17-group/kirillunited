@@ -1,0 +1,38 @@
+body {
+	font-family: Arial, sans-serif;
+}
+h3 {
+	color: #828282;
+	font-family: Open Sans;
+	margin: 0;
+	text-align: center;
+}
+a {
+	color: #09f;
+}
+.container {
+	margin: 50px;
+	max-width: 450px;
+}
+.avatar {
+	text-align: center;
+}
+.info {
+	border-top: 1px solid #09f;
+}
+.info,
+.education,
+.work,
+.interests,
+.add {
+	border-bottom: 1px solid #09f;
+	background-color: #ecf0f1;
+	padding: 5px 10px;
+}
+.add {
+	text-indent: 1cm;
+}
+.reg {
+	color: #09f;
+	text-align: center;
+}
