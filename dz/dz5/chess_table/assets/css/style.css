@@ -1,0 +1,54 @@
+table {
+    border-collapse: collapse;
+}
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.brdr-btm {
+border-bottom: 2px solid;
+}
+.brdr-top {
+border-top: 2px solid;
+}
+.brdr-rgt {
+border-right: 2px solid;
+}
+.brdr-lft {
+border-left: 2px solid;
+}
+.blackSquare {
+    background-color: lightgrey;
+}
+.figure {
+    background-image: url('../img/chess.png');
+    background-repeat: no-repeat; 
+    width: 40px;
+    height: 40px;
+}
+.black {
+    background-position-y: 3px;
+}
+.white {
+    background-position-y: -48px;
+}
+.pawn {
+    background-position-x: -261px;
+}
+.bishop {
+    background-position-x: -101px;
+}
+.knight {
+    background-position-x: -207px;
+}
+.rook {
+    background-position-x: -154px;
+}
+.queen {
+    background-position-x: -47px;
+}
+.king {
+    background-position-x: 6px;
+}
