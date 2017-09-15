@@ -1,0 +1,20 @@
+.cl {
+   clear: both;
+   width: 120px;
+   height: 30px;
+}
+.p1 {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 10px;
+}
+.p2 {
+    width: 20px;
+    float: right;
+    margin: 10px;
+}
+/*.p3 {*/
+/*    margin-left: 66%;*/
+/*    margin-right: 33%*/
+/*}*/
