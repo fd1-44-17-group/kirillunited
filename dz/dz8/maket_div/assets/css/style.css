@@ -16,9 +16,17 @@ h3 {
 	padding: 10px;
 	clear: both;
 }
+.content {
+	padding-left: 200px;
+	background-color: #fffacd;
+}
+.text,
+.content>h2 {
+	background-color: white;
+}
 .content p {
-	padding: 0 10px;
-	margin-top: 0;
+	padding: 0 10px 10px;
+	margin: 0;
 }
 .content h2 {
 	padding: 10px 0;
@@ -30,7 +38,6 @@ h3 {
 	float: left;
 	background-color: #fffacd;
 	margin-right: 10px;
-	height: 400px;
 }
 img {
 	display: block;
@@ -51,5 +58,8 @@ img {
    }
    img {
    	margin-left: 10px;
+   }
+   .content {
+   	padding-left: 0;
    }
 }
