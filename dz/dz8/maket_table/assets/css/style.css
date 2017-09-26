@@ -1,0 +1,41 @@
+.header,
+.footer {
+	width: 100%;
+	color: #0000cd;
+	background-color: #87cefa;
+	text-transform: uppercase;
+	padding: 10px;
+}
+h2 {
+	text-align: center;
+}
+.content {
+	vertical-align: top;
+}
+.menu {
+	width: 200px;
+	background-color: #fffacd;
+	padding-right: 10px;
+	vertical-align: top;
+}
+img {
+	display: block;
+	float: left;
+	max-width: 30%;
+	height: auto;
+	margin: 0 10px;
+}
+p {
+	margin: 0 10px;
+}
+.text {
+	padding-bottom: 10px;
+}
+@media screen and (max-width: 400px) {
+	table td {
+		display: block;
+} 
+    .menu {
+    	width: 100%;
+    }   
+}
