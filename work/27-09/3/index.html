@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Creating a chart</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div style="width: 500px; 
+    line-height: 25px; 
+    font-family: sans-serif;">
+        <h3>Creating a chart</h3>
+        <p>To create a chart, we need to instantiate the <span style="background-color: #F8F8FF; 
+        padding: 2px;
+        border-radius: 5px;">
+        <code>Chart</code></span> class. To do this, we need to pass in the 2d context of where we want to draw the chart. Here is an example.
+        </p>
+        <p style="background-color: #F8F8FF; 
+        padding: 5px; 
+        border-radius: 5px;">
+        <code>&#60;canvas <span style="color: #4682b4">id=</span><span style="color: red">"myChart"</span> <span style="color: #4682b4">width=</span><span style="color: red">"400"</span> <span style="color: #4682b4">height=</span><span style="color: red">"400"</span>&#62;&#60;/canvas&#62;
+        </code>
+        </p>
+        <p style="background-color:#F8F8FF; 
+        padding: 5px; 
+        border-radius: 5px;">
+        <code><i style="color: #BDB76B">// Get the context of the canvas element we want to select</i>
+        </code>
+        <br>
+        <code><b>var</b> ctx = <span style="color: blue">document</span>.getElementById(<span style="color: red">"myChart"</span>).getContext(<span style="color: red">"2d"</span>)
+        <br>
+        <b>var</b> myNewChart = <b>new</b> Chart(ctx).PolarArea(data);</code>
+        </p>
+        <p>We can also get the context of our canvas with jQuery. To do this, we need to get the DOM node out of the jQuery collection, and call the  
+        <span style="background-color: #F8F8FF; 
+        padding: 2px; 
+        border-radius: 5px;">
+        <code>getContext("2d")</code></span> method on that.
+        </p>
+        <div style="overflow: auto;
+        white-space: nowrap;
+        background-color:#F8F8FF; 
+        padding: 5px; 
+        border-radius: 5px;">
+        <code><i style="color: #BDB76B">// Get context with jQuery &mdash; using jQuery&#39;s .get()method.</i>
+        <b>var</b> ctx = <span>document</span>.getElementById(<span>"myChart"</span>).getContext(<span>"2d"</span>)
+        </code>
+        </div>
+    </div>
+</body>
+
+</html>
