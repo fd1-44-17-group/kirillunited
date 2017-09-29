@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: absolute;
+    width: 80vmin;
+    height: 80vmin;
+    border: 2px solid black;
+    margin: 10px;
+}
+.red {
+    position: absolute;
+    top: 10vmin;
+    left: 10vmin;
+    width: 15vmin;
+    height: 15vmin;
+    border: 2px solid black;
+    background-color: red;
+}
+.green {
+    position: absolute;
+    top: 10vmin;
+    left: 35vmin;
+    width: 35vmin;
+    height: 35vmin;
+    border: 2px solid black;
+    background-color: green;
+}
+.blue {
+    position: absolute;
+    top: 35vmin;
+    left: 10vmin;
+    width: 15vmin;
+    height: 35vmin;
+    border: 2px solid black;
+    background-color: blue;
+}
+.yellow {
+    position: absolute;
+    top: 55vmin;
+    left: 35vmin;
+    width: 35vmin;
+    height: 15vmin;
+    border: 2px solid black;
+    background-color: yellow;
+}
