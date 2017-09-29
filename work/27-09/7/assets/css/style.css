@@ -1,0 +1,34 @@
+.thing {
+    height: 90px;
+    width: 190px;
+    border-radius: 10px;
+    background-color: #F0FFF0;
+    padding: 15px;
+    font-style: oblique;
+    font-size: 13px;
+    position: relative;
+}
+.arrow {
+    position: relative;
+    top: -40px;
+    left: 220px;
+    display: block;
+	width: 0;
+	height: 0;
+	border-bottom: 20px solid #F0FFF0; 
+	border-right: 40px solid transparent;
+}
+.photo {
+    height: 230px;
+    width: 150px;
+    border: 1px solid grey;
+    transform: rotate(11deg);
+    text-align: center;
+    top: 30px;
+    left: 195px;
+    position: relative;
+}
+img {
+    height: 200px;
+    width: 150px;
+ +}
