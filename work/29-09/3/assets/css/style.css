@@ -2,38 +2,49 @@ body {
     margin: 0;
 }
 .container {
-    width: 100vmin;
-    height: 50vmin;
+    display: block;
+    width: 90vmin;
+    height: 40vmin;
+    padding: 5vmin;
     background-color: lightblue;
 }
-.block1 {
-    display: inline-block;
-    width: 5vmin;
-    height: 10vmin;
-    margin: 5vmin;
+.block {
+    display: block;
+    float: left;
+    height: 40vmin;
+    margin-right: 3vmin;
     background-color: white;
+    box-shadow: 0vmin 0.5vmin 0.5vmin rgba(0,0,0,0.5);
+}
+.block1 {
+    width: 2.5vmin;
 }
 .block2 {
-    display: inline-block;
     width: 5vmin;
-    height: 10vmin;
-    background-color: white;
 }
 .block3 {
-    display: inline-block;
-    width: 5vmin;
-    height: 10vmin;
-    background-color: white;
+    width: 10vmin;
 }
 .block4 {
-    display: inline-block;
-    width: 5vmin;
-    height: 10vmin;
-    background-color: white;
+    width: 20vmin;
 }
 .block5 {
-    display: inline-block;
-    width: 5vmin;
-    height: 10vmin;
-    background-color: white;
+    width: 40vmin;
+    margin-right: 0;
+}
+@media screen and (max-width: 400px) {
+    .container {
+        height: 100%;
+        transform: scaleY(-1);
+    }
+    .block {
+        float: none;
+    }
+    .block:nth-child(1n+2) {
+        margin-top: 3vmin;
+    }
+    .block5 {
+    }
+    .block4 {
+    }
 }

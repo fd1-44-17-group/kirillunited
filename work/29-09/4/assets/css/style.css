@@ -1,0 +1,31 @@
+.container {
+	position: absolute;
+	width: 100vmin;
+	background-color: lightgrey;
+}
+.triangle {
+	position: relative;
+    width: 0;
+    height: 0;
+    border-bottom: 10vmin solid green;
+    border-left: 10vmin solid transparent;
+    border-right: 10vmin solid transparent;
+}
+.triangle_down {
+	position: relative;
+	left: 35vmin;
+	top: 50%;
+    width: 0;
+    height: 0;
+    border-top: 30vmin solid green;
+    border-left: 15vmin solid transparent;
+    border-right: 15vmin solid transparent;
+}
+.triangle1 {
+	top: 30vmin;
+	left: 10vmin;
+}
+.triangle2 {
+	top: -10vmin;
+	left: 70vmin;
+}

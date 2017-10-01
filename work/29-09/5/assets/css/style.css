@@ -1,0 +1,48 @@
+body {
+	font-family: 'Playfair Display', serif;
+	text-transform: uppercase;
+	letter-spacing: 0.5rem;
+	font-size: 5rem;
+}
+.container {
+	width: 700px;
+	height: 300px;
+	text-align: center;
+	margin: auto;
+}
+.text1,
+.text2 {
+	display: inline-block;
+}
+.pixel {
+	display: inline-block; 
+	width: 100px;
+	height: 100px;
+}
+.pixel>div:nth-child(-n+5){
+    border: solid 15px;
+    position: absolute;
+}
+.pixel>div:nth-child(1){
+    margin-top: 25px;
+    margin-left: 0;
+}
+
+.pixel>div:nth-child(2){
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+.pixel>div:nth-child(3){
+    margin-top: 55px;
+    margin-left: 30px;
+ }
+
+.pixel>div:nth-child(4){
+    margin-top: 85px;
+    margin-left: 0;
+}
+.pixel>div:nth-child(5){
+    margin-top: 85px;
+    margin-left: 60px;
+}
