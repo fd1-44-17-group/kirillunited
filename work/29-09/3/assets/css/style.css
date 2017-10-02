@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+.container {
+    display: block;
+    width: 90vmin;
+    height: 40vmin;
+    padding: 5vmin;
+    background-color: lightblue;
+}
+.block {
+    display: block;
+    float: left;
+    height: 40vmin;
+    margin-right: 3vmin;
+    background-color: white;
+    box-shadow: 0vmin 0.5vmin 0.5vmin rgba(0,0,0,0.5);
+}
+.block1 {
+    width: 2.5vmin;
+}
+.block2 {
+    width: 5vmin;
+}
+.block3 {
+    width: 10vmin;
+}
+.block4 {
+    width: 20vmin;
+}
+.block5 {
+    width: 40vmin;
+    margin-right: 0;
+}
+@media screen and (max-width: 400px) {
+    .container {
+        height: 100%;
+        transform: scaleY(-1);
+    }
+    .block {
+        float: none;
+    }
+    .block:nth-child(1n+2) {
+        margin-top: 3vmin;
+    }
+    .block5 {
+    }
+    .block4 {
+    }
+}

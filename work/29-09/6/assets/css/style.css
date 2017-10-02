@@ -1,0 +1,133 @@
+body {
+	margin: 0;
+}
+.back {
+	position: absolute;
+	top: 25px;
+	width: 500px;
+	height: 300px;
+	border-radius: 20px;
+	background-color: #cfa448;
+	z-index: 1;
+}
+.back::before {
+	position: absolute;
+	top: -10px;
+	left: 0;
+	display: block;
+	content: " ";
+	width: 250px;
+	height: 50px;
+	background-color: #cfa448;
+	border-radius: 20px;
+	z-index: -1;
+}
+.file1,
+.file2,
+.file3 {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.file1 {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	width: 400px;
+	height: 300px;
+	border-radius: 10px;
+	background-color: #e4e7e8;
+	z-index: 10;
+}
+.file2 {
+	position: absolute;
+	top: 65px;
+	left: 30px;
+	width: 440px;
+	height: 300px;
+	border-radius: 10px;
+	background-color: #e4e7e8;
+	z-index: 200;
+}
+.file3 {
+	position: absolute;
+	top: 100px;
+	left: 10px;
+	width: 480px;
+	height: 300px;
+	border-radius: 10px;
+	background-color: #e4e7e8;
+	z-index: 300;
+}
+.front {
+	position: absolute;
+	top: 150px;
+	width: 500px;
+	height: 300px;
+	border-radius: 20px;
+	background-color: #ffcd59;
+	z-index: 400;
+}
+.menu {
+    border-top: 4px grey solid;
+    width: 5%;
+    height: 0px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    border-radius: 5px;
+}
+.menu::before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: -14px;
+	left: 0px;
+	width: 100%;
+	border-top: 4px grey solid;
+	border-radius: 5px;
+}
+.menu::after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: 6px;
+	left: 0px;
+	width: 100%;
+	border-top: 4px grey solid;
+	border-radius: 5px;
+}
+.icon {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: 10px;
+	left: 20px;
+	background-color: #fea813;
+	border-radius: 5px;
+}
+.icon::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: -15px;
+	width: 10px;
+	height: 10px;
+	background-color: #f44c50;
+	border-radius: 5px;
+}
+.icon::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 15px;
+	width: 10px;
+	height: 10px;
+	background-color: #39cb96;
+	border-radius: 5px;
+}
+.file1:hover,
+.file2:hover,
+.file3:hover {
+	margin-left: 300px;
+}
