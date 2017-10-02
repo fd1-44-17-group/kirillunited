@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold
+}
+.container {
+    width: 80vmin;
+    height: 20vmin;
+    margin: auto;
+    border: 1px solid;
+}
+.text1 {
+}
+.text2 {
+}
+.text3 {
+    float: right;
+    border: 2px dashed red;
+    border-radius: 10px;
+}
+span {
+    font-size: 5vmin
+}
