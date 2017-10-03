@@ -7,7 +7,7 @@ body {
 }
 .container {
     position: absolute;
-    width: 600px;
+    width: 650px;
     height: 200px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
     overflow: hidden;
@@ -45,7 +45,7 @@ p {
     height: 10px;
     width: 100%;
     top: 24px;
-    left: 235px;
+    left: 248px;
 }
 .russian::after {
     position: absolute;
@@ -54,5 +54,5 @@ p {
     height: 10px;
     width: 100%;
     top: 24px;
-    left: 263px;
+    left: 295px;
 }
