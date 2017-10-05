@@ -1,0 +1,63 @@
+h1,
+h2,
+h3 {
+	margin: 0;
+}
+.header,
+.footer {
+	width: 100%;
+	text-align: center;
+	color: #0000cd;
+	background-color: #87cefa;
+	text-transform: uppercase;
+	padding: 3vmin;
+	clear: both;
+}
+.content {
+	padding-left: 200px;
+	background-color: #fffacd;
+}
+.text,
+.content>h2 {
+	background-color: white;
+}
+.content p {
+	padding: 0 3vmin 3vmin;
+	margin: 0;
+}
+.content h2 {
+	padding: 3vmin 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+h3 {
+	padding: 3vmin 0 0 3vmin;
+}
+.menu {
+	width: 200px;
+	float: left;
+	background-color: #fffacd;
+	margin-right: 3vmin;
+}
+img {
+	float: left;
+	margin-right: 3vmin;
+	max-width: 30%;
+}
+@media screen and (max-width: 400px) {
+   .menu,
+   .content {
+   	float: left;
+   	clear: left;
+   }
+   .menu {
+   	height: auto;
+   	width: 100%;
+   }
+   img {
+   	margin-left: 3vmin;
+   }
+   .content {
+   	padding-left: 0;
+   }
+}

@@ -1,0 +1,44 @@
+.header,
+.footer {
+	width: 100%;
+	color: #0000cd;
+	background-color: #87cefa;
+	text-transform: uppercase;
+	padding: 3vmin;
+}
+h2 {
+	text-align: center;
+}
+.content {
+	vertical-align: top;
+	background-image: url(../img/ball.jpeg);
+    background-position: right;
+    background-repeat: repeat-y;
+}
+.menu {
+	width: 200px;
+	background-color: #fffacd;
+	padding-right: 10px;
+	vertical-align: top;
+}
+h3 {
+	padding-left: 3vmin;
+}
+img {
+	float: left;
+	margin: 0 3vmin;
+}
+p {
+	margin: 0 3vmin;
+}
+.text {
+	padding-bottom: 3vmin;
+}
+@media screen and (max-width: 400px) {
+	table td {
+		display: block;
+} 
+    .menu {
+    	width: 100%;
+    }   
+}
