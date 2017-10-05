@@ -1,0 +1,30 @@
+div {
+    width: 510px;
+    line-height: 25px; 
+    font-family: sans-serif;
+}
+.scroll {
+    overflow: auto;
+    height: auto;
+    white-space: nowrap;
+    background-color: #F8F8FF; 
+    padding: 5px; 
+    border-radius: 5px;
+}
+.code{
+    background-color: #F8F8FF; 
+    padding: 3px; 
+    border-radius: 5px;
+}
+i {
+    color: #BDB76B;
+}
+.data {
+    color: #4682b4;
+}
+.value {
+    color: red;
+}
+.doc {
+    color: blue;
+}
