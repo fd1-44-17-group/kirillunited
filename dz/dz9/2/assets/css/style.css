@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+}
+.container {
+    width: 100%;
+}
+.content {
+    width: 80vmin;
+    margin: auto;
+}
+.text1,
+.text2,
+.text3 {
+    position: absolute;    
+}
+.text1 {
+    top: -2vmin;
+    left: 2vmin;
+    font-size: 3.5vmin;
+}
+.text2 {
+    top: -3vmin;
+    left: 2vmin;
+    font-size: 4vmin;
+    color: red;
+}
+.text3 {
+    top: 0;
+    left: 60vmin;
+    text-align: center;
+    padding: 1vmin 1.5vmin;
+    border: 2px dashed red;
+    border-radius: 10px;
+}
+.text3 p {
+    margin: 0;
+    font-size: 3.5vmin;
+    text-align: center;
+}
+.red {
+    font-size: 8vmin;
+    color: red;
+}

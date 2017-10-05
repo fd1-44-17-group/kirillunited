@@ -1,0 +1,32 @@
+/*num: #509bbf
+back: #ff6b27
+border: #cbcbcb*/
+
+body {
+	font-size: 3vmin;
+}
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-menu li {
+    display: block;
+    float: left;
+    margin-right: 0;
+    padding-bottom: 2vmin; 
+    border-bottom: 1vmin solid #cbcbcb;
+}
+.main-menu a {
+    display: block;
+    padding: 2.5vmin 2vmin;
+    color: #509bbf;
+}
+.main-menu .active a {
+	color: white;
+	text-decoration: none;
+	background-color: #ff6b27;
+}
+.main-menu .active {
+	border-bottom: 1vmin solid #ff6b27;
+}

@@ -1,0 +1,58 @@
+/*blue #4879b7*/
+/*red #d20417*/
+/*back #f3f3f3*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+.container {
+    position: absolute;
+    width: 650px;
+    height: 200px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
+    overflow: hidden;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+p {
+    margin: 5px 10px;
+    text-align: center;
+}
+.english {
+    position: absolute;
+    top: 25px;
+    left: 210px;
+    color: white;
+    font-weight: bold;
+    font-size: 34px;
+    background-color: #4879b7;
+}
+.russian {
+    position: absolute;
+    left: 300px;
+    top: 125px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #d20417;
+}
+.english::after {
+    position: absolute;
+    content: " ";
+    background-color: #4879b7;
+    height: 10px;
+    width: 100%;
+    top: 24px;
+    left: 248px;
+}
+.russian::after {
+    position: absolute;
+    content: " ";
+    background-color: #d20417;
+    height: 10px;
+    width: 100%;
+    top: 24px;
+    left: 295px;
+}
