@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>4-numbers_alert</title>
+</head>
+<body>
+	<script>
+		var a=[];
+		var num;
+		while (num != '') {
+			num=prompt('Введите число:');
+			if (isNaN(num)) {
+				alert('Некорректный ввод!');
+			}
+			if (isFinite(num)){
+				a[a.length]=num;
+			}			
+		}
+		console.log(a);
+	</script>
+
+</body>
+</html>
