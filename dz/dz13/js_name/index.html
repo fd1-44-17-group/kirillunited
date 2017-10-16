@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+  <script>
+    var lastName = prompt('Ваша фамилия?', 'Ivanov');
+    var firstName = prompt('Ваше имя?', 'Ivan');
+    var secondName = prompt('Ваше отчество?', 'Ivanich');
+    alert(lastName + ' ' + firstName + ' ' + secondName);
+    console.log(lastName + ' ' + firstName + ' ' + secondName);
+    var oldStr = prompt('Ваш возраст?');
+    var old = parseInt(oldStr);
+    if (isNaN(old)) { 
+      alert('Некорректно введён возраст!');
+      console.log('Некорректно введён возраст!');
+    }
+    else {
+      alert('Ваш возраст ' + old);
+      console.log('Ваш возраст ' + old);
+    }
+    if (old>200) { 
+      alert('Столько не живут!');
+      console.log('Ваш возраст ' + old);
+    }
+  </script>
+</body>
+</html>
