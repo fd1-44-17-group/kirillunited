@@ -1,0 +1,83 @@
+input {
+    display: none;
+}
+
+#photo1[name="photo"]:checked+div {
+    display: block;
+    width: 350px;
+    height: 200px;
+    background-image: url(../img/1.jpg);
+}
+
+#photo2[name="photo"]:checked+div {
+    display: block;
+    width: 350px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-image: url(../img/2.jpg);
+}
+
+#photo3[name="photo"]:checked+div {
+    display: block;
+    width: 350px;
+    height: 200px;
+    background-image: url(../img/3.jpg);
+}
+
+.circles {
+    position: absolute;
+    top: 180px;
+    left: 150px;
+}
+
+.circles>label {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 7px;
+    background-color: white;
+    float: left;
+    margin: 5px;
+}
+
+._left {
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-right: solid 20px white;
+    border-left: 20px solid rgba(0, 0, 0, 0);
+    border-bottom: 20px solid rgba(0, 0, 0, 0);
+    border-top: 20px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 90px;
+    left: -5px;
+}
+
+._right {
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-left: solid 20px white;
+    border-right: 20px solid rgba(0, 0, 0, 0);
+    border-bottom: 20px solid rgba(0, 0, 0, 0);
+    border-top: 20px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 90px;
+    left: 330px;
+}
+
+.arrows {
+    display: none;
+}
+
+#photo1[name="photo"]:checked~#_1 {
+    display: block;
+}
+
+#photo2[name="photo"]:checked~#_2 {
+    display: block;
+}
+
+#photo3[name="photo"]:checked~#_3 {
+    display: block;
+}
