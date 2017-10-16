@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>countries</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script type="text/javascript">
+		var q=prompt('Введите название страны', 'Справочник')
+		var countries={ Россия: 'Насиление: 500 человек, Площадь: 20 кв.км', 
+		Чехия: 'Насиление: 10 человек, Площадь: 1 кв.км', 
+		Америка: 'Насиление: 1000 человек, Площадь: 10 кв.км' };
+		if (q=='Справочник') {
+			for (var K in countries)
+			alert(K);
+		}
+		if (countries[q]) {
+			alert(countries[q]);
+		}
+		//  else {
+		// 	alert("Ошибка!");
+		// }
+	</script>
+</body>
+</html>
